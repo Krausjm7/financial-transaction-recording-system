@@ -6,10 +6,10 @@ I created this project as a web-based application designed to manage financial t
 ## Purpose
 I built this system as a basic prototype for enabling individuals or small companies to keep track of their financial and business transactions.
 
-#For Individuals: 
+For Individuals: 
 My goal was to create a simple way for anyone to log their daily income and expenses. This provides a quick personal overview of spending and financial flow, without needing complex accounting software. It also enables the user to search for transactions.
 
-#For Small Companies: 
+For Small Companies: 
 It offers an easy and lightweight method to record initial transactions, manage them, and ensure basic financial transparency. This helps businesses keep track of their finances.
 
 ## Features
