@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financial Transaction Recording System</title>
+    <style>
+        body { font-family: sans-serif; line-height: 1.6; margin: 20px; background-color: #f4f4f4; color: #333; }
+        .container { max-width: 800px; margin: auto; background: white; padding: 30px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        h1, h2 { color: #333; }
+        a { color: #007bff; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        .button { display: inline-block; padding: 10px 20px; background-color: #007bff; color: white; border-radius: 5px; margin-top: 15px; }
+        .button:hover { background-color: #0056b3; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Financial Transaction Recording System</h1>
+        <p>This is a basic prototype of a financial transaction recording system built with Flask.</p>
+        <p>It allows users to Create, Read, Update, and Delete (CRUD) financial entries.</p>
+
+        <h2>Features:</h2>
+        <ul>
+            <li>Add new transactions (date, amount)</li>
+            <li>View all recorded transactions</li>
+            <li>Edit existing transaction details</li>
+            <li>Delete transactions</li>
+            <li>Search transactions by amount range</li>
+            <li>Calculate and display total balance</li>
+        </ul>
+
+        <p>This application is designed to help individuals or small companies keep track of their financial activities in a simple, straightforward manner.</p>
+
+        <h2>How to Use:</h2>
+        <p>This is a dynamic web application and cannot run directly on GitHub Pages. To use it, you need to clone the repository and run it locally:</p>
+        <pre><code>git clone https://github.com/Krausjm7/financial-transaction-recording-system.git
+cd financial-transaction-recording-system
+python3.11 -m venv venv
+source venv/bin/activate
+pip install Flask
+python3.11 app.py</code></pre>
+        <p>Then, open your browser to `http://127.0.0.1:5001`.</p>
+
+        <p><a href="https://github.com/Krausjm7/financial-transaction-recording-system" class="button">View Project on GitHub</a></p>
+        
+        </div>
+</body>
+</html>
